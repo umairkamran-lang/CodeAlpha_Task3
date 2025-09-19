@@ -1,0 +1,8 @@
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background-color:lightgreen;display:flex;align-items:center;justify-content:center;height:100vh}
+.player-card{background-color:white;padding:20px;border-radius:12px;box-shadow:0 12px 30px gray;width:360px;text-align:center}
+.controls button{background-color:lightblue;border:none;padding:10px 16px;margin:6px;border-radius:8px;cursor:pointer}
+#progress{width:100%;margin-top:12px}
+.playlist{list-style:none;padding:0;margin-top:12px;text-align:left;max-height:120px;overflow:auto}
+.playlist li{padding:8px;border-radius:6px;margin-bottom:6px;background-color:lightgray;cursor:pointer}
+.playlist li.active{background-color:blue;color:white}
